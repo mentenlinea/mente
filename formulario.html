@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale-1.0">
+        <link rel="stylesheet" href="Secion.css">
+        <title>formularios</title>
+    </head>
+<body>
+    <form action=""method="post"> 
+        <h2>registro de ususario</h2>
+ 
+    <label for="nombre"> nombre de usuario</label>
+        <input type="nombre" id="nombre" name="nombre" required>
+
+    <label for="email"> correo electronico</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="contraseña">contraseña</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="asunto"> asunto </label>
+    <input type="asunto">
+
+    <label for="mensaje"> mensaje </label>
+    <textarea id="mensaje" name=mensaje rows="4"  required>mensaje</textarea> 
+    
+    <label>genero:</label>
+    <div class="genero">
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">masculino</label>
+    
+    <input type="radio" id="femenino" name="genero" value="femenino">
+    <label for="femenino">femenino</label>
+    
+    <input type="radio" id="otros" name="genero" value="otros">
+    <label for="otros">otro</label>
+
+</div>
+
+<div class="checkbox">
+    <input type="checkbox" id="terminos" name="terminos">
+    <label for="terminos">acepto terminos y condiciones</label>
+    
+    <button onclick="location.href='file:file:///C:/Users/hp/Downloads/menu.html'">Volver al menu</button>    
+    </form>
+</body>
+</html>
